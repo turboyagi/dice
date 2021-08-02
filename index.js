@@ -3,6 +3,8 @@
     rollDice();
 }
 
+document.getElementById("rollButton").onclick = function() {rollDice()}
+
 function rollDice() {
     var randomNumber1 = `images/dice${Math.floor(Math.random() * 6) + 1}.png`;
     var randomNumber2 = `images/dice${Math.floor(Math.random() * 6) + 1}.png`;
