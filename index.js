@@ -17,8 +17,8 @@ function rollDice() {
     if (num1 === num2) {
       document.querySelector("h1").innerHTML = "Draw!";
     } else if (num1 > num2) {
-      document.querySelector("h1").innerHTML = "🚩 Saki Wins!";
+      document.querySelector("h1").innerHTML = "🚩 Silvija Won!";
     } else {
-      document.querySelector("h1").innerHTML = "Ryfo Wins! 🚩";
+      document.querySelector("h1").innerHTML = "PopPop Won! 🚩";
     }
   }
